@@ -1,0 +1,50 @@
+# The specified build environment is Node.js, and the current version is stable
+anguage: node_js
+node_js: "13.13.0"
+
+env:
+ global:
+   - URL_REPO: github.com/ryuzakyl/ryuzakyl.github.io.git
+
+# Set the hook to only detect the push changes of the blog-source branch
+branches:
+  only:
+    - hexo
+
+# Set cache file
+cache:
+  directories:
+    - node_modules
+
+# Install the hexo environment before building
+before_install:
+  - npm install -g hexo-cli@4.1.0
+
+# install plugins/packages
+install:
+  - npm install
+
+# Set the git submission name and mailbox; replace the real token to the _config.yml file
+before_script:
+  - git config user.name "ryuzakyl"
+  - git config user.email "ryuzakyl@gmail.com"
+  # Replace the github_token string in the _config.yml file in the same directory with 
+  # the variable just configured in the travis backend. Note that the sed command uses
+  # double quotes. Single quotes are invalid!
+  - sed -i "s/github_token/${GH_TOKEN}/g" _config.yml || exit 1
+
+# Perform operations to clear cache and generate web pages
+script:
+  - hexo clean
+  - hexo generate
+  - echo ${ENV_TEST}
+  - hexo deploy --silent
+
+# configure notifications (email, IRC, campfire etc)
+# please update this section to your needs!
+# https://docs.travis-ci.com/user/notifications/
+notifications:
+  email:
+    - ryuzakyl@gmail.com
+  on_success: change
+  on_failure: always
