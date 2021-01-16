@@ -1,5 +1,13 @@
 // Custom styles.
 
+#header.header {
+    margin-top: 25px
+}
+
+#main.main {
+    margin-top: 25px
+}
+
 .cv-pdf-icon {
     width: 20px !important;
     height: 23px !important;
@@ -53,11 +61,21 @@
     display: inline-block;
     margin-left: 3px;
     margin-top: 2px;
-    cursor: pointer;
+    // cursor: pointer;
 }
 
 .copy-btn {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-right: 10px
     background-color: transparent;
-    // background-image: url("/assets/images/2021-01-12-hello-world/study.jpg");
+
+    background-image: url(/assets/images/shared/copy-solid.svg);  /* shows image */
+    background-repeat: no-repeat;
+    height: 15px;
+    width:  15px;
+
+    /* Hide the text. */
+    text-indent: 50px;
+    white-space: nowrap;
+    overflow: hidden;
 }

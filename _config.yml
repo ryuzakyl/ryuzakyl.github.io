@@ -135,3 +135,9 @@ deploy:
   branch: master
 
 - type: baidu_url_submitter
+
+emoji:
+  enable: true
+  className: github-emoji
+  styles:
+  customEmojis:
