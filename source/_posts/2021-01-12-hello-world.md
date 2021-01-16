@@ -1,5 +1,5 @@
 ---
-title: Hello World. My first blog post
+title: Hello World
 date: 2021-01-12 23:09:00
 toc: true
 tags:
