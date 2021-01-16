@@ -5,11 +5,11 @@ date: 2021-01-07 00:00:00
 
 ----
 
-![the title](/assets/images/about-me/havana-skyline.jpg)
+![](/assets/images/about-me/havana-skyline.jpg)
 
 ## $ whoami
 
-**Name：** L (from Death Note)
+**Name：** L
 **Occupation：** Software Engineer (& Cybersecurity Engineer wannabe)
 **Nationality：** 🇨🇺 Cuba (born & raised)
 **Location：** 🇪🇸 Málaga, Spain

@@ -390,7 +390,7 @@ codeblock:
 
 # Wechat Subscriber
 wechat_subscriber:
-  enable: true
+  enable: false
   qcode: /images/wechat-subscribe.jpg
   description:  ヾﾉ≧∀≦)o  欢迎订阅公众号「Coder魔法院」☑工具控 ☑编程 ☑读书☑电影
 
@@ -398,7 +398,7 @@ wechat_subscriber:
 reward_settings:
   # If true, reward would be displayed in every article by default.
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front-matter.
-  enable: true
+  enable: false
   animation: true
   comment: 「🤓 码字不易，赏个茶叶蛋 👇」
 
