@@ -45,7 +45,7 @@ date: 2021-01-07 00:00:00
 - When not on the job, I often like to play/mess around with tech related stuff.  If anyone's curious, you can visit my [GitHub profile](https://github.com/ryuzakyl).
 - I would <span class="with-love" id="animate"><i class="fa fa-heart"></i></span> to have some free time to learn & do some `hands-on Hacking/Cybersecurity`.
 - I consider myself a foodie and enjoy cooking [<img class="gh-md-emoji-icon" src="https://github.githubassets.com/images/icons/emoji/unicode/1f372.png">](#) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [<img class="gh-md-emoji-icon" src="https://github.githubassets.com/images/icons/emoji/unicode/1f963.png">](#)
-- I'm a fan of fitness, playing sports anything phisical related [<img class="gh-md-emoji-icon" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3cb.png">](#)
+- I'm a fan of fitness, playing sports and anything phisical related [<img class="gh-md-emoji-icon" src="https://github.githubassets.com/images/icons/emoji/unicode/1f3cb.png">](#)
 - Still don't give up on my dream of traveling around the [<img class="gh-md-emoji-icon" src="https://github.githubassets.com/images/icons/emoji/unicode/1f30e.png">](#)
 
 
