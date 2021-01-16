@@ -41,7 +41,7 @@ It is only logical, and about time, that I create some sort of safe/vault to sto
 
 ## I almost forgot... :man_facepalming:
 
-Thanks to you tech wizards for read my *jibber-jabber* up until now. Here I give you the reason all you guys came here for:
+Thanks to you tech wizards for reading my *jibber-jabber* up until now. Here I give you the reason all you guys came here for:
 
 ### Bash
 
