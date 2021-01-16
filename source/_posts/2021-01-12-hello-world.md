@@ -29,40 +29,16 @@ Work In Progress (WIP)
 
 ## Who is this blog for?
 
-
 ## What you came for... the tech part [<img class="gh-md-emoji-icon" src="https://github.githubassets.com/images/icons/emoji/unicode/1f389.png">](#)
 
-{% tabs Code, 1 %}
-<!-- tab C# -->
-{% codeblock lang:csharp Program.cs %}
-// Hello World! program
-namespace HelloWorld
-{
-    class Program {
-        static void Main(string[] args)
-        {
-            System.Console.WriteLine("Hello World!");
-        }
-    }
-}
-{% endcodeblock %}
-<!-- endtab -->
+### C&#35;
 
-<!-- tab Python -->
-{% codeblock lang:python main.py %}
-print('Hello World!')
-{% endcodeblock %}
-<!-- endtab -->
+{% include_code Program.cs lang:csharp 2021-01-12-hello-world/Program.cs %}
 
-<!-- tab Golang -->
-{% codeblock lang:golang main.go %}
-package main
+### Python
 
-import "fmt"
+{% include_code main.py lang:python 2021-01-12-hello-world/main.py %}
 
-func main() {
-    fmt.Println("hello world")
-}
-{% endcodeblock %}
-<!-- endtab -->
-{% endtabs %}
+### Go
+
+{% include_code main.go lang:golang 2021-01-12-hello-world/main.go %}
