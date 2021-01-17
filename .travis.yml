@@ -32,6 +32,8 @@ before_script:
   # the variable just configured in the travis backend. Note that the sed command uses
   # double quotes. Single quotes are invalid!
   - sed -i "s/github_token/${GH_TOKEN}/g" _config.yml || exit 1
+  - sed -i "s/formspree_token/${FORMSPREE_TOKEN}/g" source/subscribe/index.md || exit 1
+
 
 # Perform operations to clear cache and generate web pages
 script:

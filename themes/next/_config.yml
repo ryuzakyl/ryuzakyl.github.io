@@ -182,6 +182,7 @@ menu:
   # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
   # commonweal: /404/ || heartbeat
+  suscribe: /subscribe/ || address-book
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
