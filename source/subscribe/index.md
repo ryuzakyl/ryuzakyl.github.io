@@ -1,6 +1,9 @@
 ---
 title: Why Subscribe?
 date: 2021-01-17 15:37:19
+keywords:
+  - subscribe
+  - newsletter
 ---
 
 <form action="https://formspree.io/f/formspree_token" method="POST">
