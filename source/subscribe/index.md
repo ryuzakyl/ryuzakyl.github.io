@@ -6,7 +6,11 @@ keywords:
   - newsletter
 ---
 
-<form action="https://formspree.io/f/formspree_token" method="POST">
+And why not? :grin: If you want to be notified as soon as some new content is posted, subscribing to this newsletter is the way to go :sunglasses:
+
+<script type="text/javascript" src="https://form.jotform.com/jsform/210166215063343"></script>
+
+<!-- <form action="https://formspree.io/f/formspree_token" method="POST">
   <label>
     Your Name:
     <input type="text" name="name">
@@ -19,4 +23,4 @@ keywords:
   <button type="submit">Subscribe</button>
 </form>
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
