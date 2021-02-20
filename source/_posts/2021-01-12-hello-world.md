@@ -15,6 +15,7 @@ keywords:
   - hello world
   - tech
 ---
+
 > **TL;DR** In this post I delve into the reasons that motivated me to create this blog and, of course, some *Hello World* examples in several programming languages.
 
 ![](/assets/images/2021-01-12-hello-world/study.jpg)
