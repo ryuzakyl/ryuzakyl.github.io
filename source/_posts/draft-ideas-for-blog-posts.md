@@ -20,6 +20,10 @@ keywords:
 
 <!-- more -->
 
+# [< 75th Post] Documented on Trello
+
+<!-- ---------------------------------------------------------------------- -->
+
 # [75th Post] Playing with Trello & Python with **py-trello**
 
 > **TL;DR** Needed to send some info to a friend, which I had in Trello cards. Lazy as I am, I decided to *automate* that process This post lays out the detailed steps for consuming Trello's API from Python.
@@ -54,7 +58,7 @@ https://py-trello.readthedocs.io/en/latest/
 Documentation for devs?
 https://py-trello-dev.readthedocs.io/en/latest/trello.html#module-trello.card
 
-
+<!-- ---------------------------------------------------------------------- -->
 
 # [76th Post] Develop extensions for **VS Code**
 
@@ -63,7 +67,76 @@ https://py-trello-dev.readthedocs.io/en/latest/trello.html#module-trello.card
 **NOTE:** Probably at the beginning we will only solve the problem for simple HTTP URLs, maybe in the future we can expand it for SSH, FTP and other protocols.
 
 **Examples to use as guidance:**
-* (Kubernetes Snippets) https://github.com/ipedrazas/kubernetes-snippets, https://marketplace.visualstudio.com/items?itemName=ipedrazas.kubernetes-snippets
-* (REST Client) https://github.com/Huachao/vscode-restclient
+* (Kubernetes Snippets)
+https://github.com/ipedrazas/kubernetes-snippets,
+https://marketplace.visualstudio.com/items?itemName=ipedrazas.kubernetes-snippets
+* (REST Client)
+https://github.com/Huachao/vscode-restclient
 
 **NOTE:** We could solve some developer's concern like this one (https://stackoverflow.com/questions/58967325/can-i-open-a-url-as-a-file-in-vscode).
+
+<!-- ---------------------------------------------------------------------- -->
+
+# [77th Post] Develop on Docker containers in **VS Code**
+
+> **TL;DR** Wanted to develop inside containers because switching between Linux and Windows 10 + WSL 2 to make the switch as seemless as possible.
+
+**Instructions:** https://code.visualstudio.com/docs/remote/containers
+
+For the issues communicating the containers, these are the approaches:
+
+## Approach 1: Use host.internal.docker
+
+Access host port from inside docker container: https://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container
+
+Another link (Answer it on Stack Overflow, it's probably the IP Tables rule missing): https://stackoverflow.com/questions/65362926/from-inside-one-docker-container-how-to-connect-to-the-port-of-another-docker-c
+
+## Approach 2: Make containers be part of a separate network
+
+Instructions: https://stackoverflow.com/a/58764482/2766396
+
+To verify that the containers are on the same network: https://stackoverflow.com/a/43904733/2766396
+
+For example, this is how we find the containers on the host network (running with *--network host*):
+docker network inspect host -f <pre>"{{json .Containers }}"</pre>
+
+### How to access the containers?
+
+You can connect using the container's name. Some DNS resolution is done (search for a better explanation reference that tutorial) and we can use the following URL:
+
+**container-name**:**container-port**
+
+### Remove the network when there still endpoints
+
+Instructions: https://github.com/moby/moby/issues/17217#issuecomment-196607597
+
+## Approach 3: User the host's network
+
+Using the host network: https://docs.docker.com/network/network-tutorial-host/
+Testing that with command: sudo netstat -tulpn | grep :**port**
+
+## Connecting Firefox for Developers (include it here on another post?)
+
+The only difference is that we need to provide firefox's binary location on the *launch.json* config
+
+## Troubleshooting (containers do not communicate)
+
+### Cannot access a container from inside another
+
+IP Table rule to allow traffic to **docker0** interface: https://forums.docker.com/t/configuring-iptables-to-let-docker-containers-access-out/41176
+
+### Firefox/Chrome cannot connect to the debugger
+
+NOTE: Still don't know why Chrome can't connect to debugger. Firefox can. 
+
+### Connection reset by peer when when hitting Docker container
+
+Troubleshooting the issue: https://www.javaer101.com/es/article/49770319.html
+Using the host network: https://docs.docker.com/network/network-tutorial-host/
+Testing that with command: sudo netstat -tulpn | grep :**port**
+
+<!-- ---------------------------------------------------------------------- -->
+
+# [78th Post] Docker Networking
+
+Start with links gathered in my Trello board **Study > Docker > Networking**.
