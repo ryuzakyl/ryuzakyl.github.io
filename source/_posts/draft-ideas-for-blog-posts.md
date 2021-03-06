@@ -140,3 +140,25 @@ Testing that with command: sudo netstat -tulpn | grep :**port**
 # [78th Post] Docker Networking
 
 Start with links gathered in my Trello board **Study > Docker > Networking**.
+
+# [79th Post] Cheapest K8s Cluster ~1USD a day
+
+https://georgepaw.medium.com/how-to-run-the-cheapest-kubernetes-cluster-at-1-per-day-9287abb90cee
+https://georgepaw.medium.com/how-to-run-the-cheapest-kubernetes-cluster-at-1-per-day-tutorial-9673f062b903
+
+# [80th Post] Microservices development (yes... development) with Kubernetes
+
+Debugging and Developing microservices communicating with other services in a K8s cluster:
+
+https://erkanerol.github.io/post/debugging-k8s-services/
+https://www.telepresence.io/
+
+# [81th Post] Configuring Secrets on Kubernetes
+
+Links:
+* (use case for secret creation) https://sookocheff.com/post/kubernetes/local-kubernetes-development-with-kind/
+* (K8s: Pull images from private registries) https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
+* (Creating secrets from GitHub, GitLab, etc.) https://towardsdatascience.com/multiple-ways-to-create-kubernetes-secrets-33f97feaa499
+* (Add ImagePullSecrets to a service account) https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#add-imagepullsecrets-to-a-service-account
+* https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-secret-docker-registry-em-
+* 
