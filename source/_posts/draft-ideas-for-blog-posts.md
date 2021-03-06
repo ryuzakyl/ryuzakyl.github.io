@@ -156,8 +156,8 @@ https://www.telepresence.io/
 # [81th Post] Configuring Secrets on Kubernetes
 
 Links:
-* **(use case for secret creation)** https://sookocheff.com/post/kubernetes/local-kubernetes-development-with-kind/, https://maelvls.dev/docker-proxy-registry-kind/
-* **(K8s: Pull images from private registries)** https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/, https://kind.sigs.k8s.io/docs/user/local-registry/
+* **(use case for secret creation)** https://sookocheff.com/post/kubernetes/local-kubernetes-development-with-kind/
+* **(K8s: Pull images from private registries)** https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/, (several registries: proxy and push) https://maelvls.dev/docker-proxy-registry-kind/ https://kind.sigs.k8s.io/docs/user/local-registry/
 * **(Creating secrets from GitHub, GitLab, etc.)** https://towardsdatascience.com/multiple-ways-to-create-kubernetes-secrets-33f97feaa499
 * **(Add ImagePullSecrets to a service account)** https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#add-imagepullsecrets-to-a-service-account
 * **(kubectl imperative secret creation)** https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-secret-docker-registry-em-
