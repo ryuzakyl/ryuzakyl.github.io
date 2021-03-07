@@ -167,3 +167,9 @@ Links:
 
 * (automating + CI/CD) https://martinheinz.dev/blog/17
 * (reference Post 81th for Kubernetes part) Also https://martinheinz.dev/blog/20
+
+# [83th Post] Install ytfzf with by-product
+
+* *ytfzf* is for lazy dudes like me and we can see now youtube videos from the terminal.
+* one interesting thing is you can watch YT videos without annoying adds.
+* as a *by-product*, we install fzf and adding the line ([ -f ~/.fzf.bash ] && source ~/.fzf.bash) to your ~/.bashrc gives you a very nice autocompletion on Ctrl + R on bash.
