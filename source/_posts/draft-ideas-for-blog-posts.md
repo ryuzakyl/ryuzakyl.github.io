@@ -161,3 +161,9 @@ Links:
 * **(Creating secrets from GitHub, GitLab, etc.)** https://towardsdatascience.com/multiple-ways-to-create-kubernetes-secrets-33f97feaa499
 * **(Add ImagePullSecrets to a service account)** https://kubernetes.io/docs/tasks/configure-pod-container/configure-service-account/#add-imagepullsecrets-to-a-service-account
 * **(kubectl imperative secret creation)** https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#-em-secret-docker-registry-em-
+
+
+# [82nd Post] Automate Python development environment
+
+* (automating + CI/CD) https://martinheinz.dev/blog/17
+* (reference Post 81th for Kubernetes part) Also https://martinheinz.dev/blog/20
