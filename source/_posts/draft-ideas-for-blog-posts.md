@@ -185,7 +185,13 @@ Links:
 
 * (My Trello board) https://trello.com/c/K5gOn4FM/18-good-software-practices
 
-# [85th Post] Jobs/Processing queue in Kubernetes with Celery and RabbitMQ
+# [85th Post] Jobs & CronJobs in Kubernetes
 
 * (tutorial Celery + RabbitMQ) https://github.com/kubernetes/kubernetes/tree/release-1.3/examples/celery-rabbitmq
 * (Parallel processing queue in Kubernetes) https://kubernetes.io/docs/tasks/job/coarse-parallel-processing-work-queue/
+
+# [86th Post] Work queues in Kubernetes with Celery and RabbitMQ
+
+* (Jobs) https://levelup.gitconnected.com/understanding-jobs-in-kubernetes-541614ccd796
+* (CronJobs) https://levelup.gitconnected.com/getting-started-with-cronjobs-in-kubernetes-da94263d4887
+* (Jobs & CronJobs) https://opensource.com/article/20/11/kubernetes-jobs-cronjobs, https://betterprogramming.pub/tutorial-how-to-use-kubernetes-job-and-cronjob-1ef4ffbc8e84
