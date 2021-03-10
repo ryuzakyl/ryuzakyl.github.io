@@ -110,6 +110,13 @@ You can connect using the container's name. Some DNS resolution is done (search 
 
 Instructions: https://github.com/moby/moby/issues/17217#issuecomment-196607597
 
+Example:
+$ docker network inspect qq-network | grep endpoint
+$ docker network disconnect -f qq-network backend-service 
+$ docker network disconnect -f qq-network frontend-service 
+$ docker network rm qq-network 
+qq-network
+
 ## Approach 3: User the host's network
 
 Using the host network: https://docs.docker.com/network/network-tutorial-host/
@@ -173,3 +180,12 @@ Links:
 * *ytfzf* is for lazy dudes like me and we can see now youtube videos from the terminal.
 * one interesting thing is you can watch YT videos without annoying adds.
 * as a *by-product*, we install fzf and adding the line ([ -f ~/.fzf.bash ] && source ~/.fzf.bash) to your ~/.bashrc gives you a very nice autocompletion on Ctrl + R on bash.
+
+# [84th Post] Modelling business/software user cases/requirements with Finite State Automatons
+
+* (My Trello board) https://trello.com/c/K5gOn4FM/18-good-software-practices
+
+# [85th Post] Jobs/Processing queue in Kubernetes with Celery and RabbitMQ
+
+* (tutorial Celery + RabbitMQ) https://github.com/kubernetes/kubernetes/tree/release-1.3/examples/celery-rabbitmq
+* (Parallel processing queue in Kubernetes) https://kubernetes.io/docs/tasks/job/coarse-parallel-processing-work-queue/
