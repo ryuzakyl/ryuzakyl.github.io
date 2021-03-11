@@ -195,3 +195,8 @@ Links:
 * (Jobs) https://levelup.gitconnected.com/understanding-jobs-in-kubernetes-541614ccd796
 * (CronJobs) https://levelup.gitconnected.com/getting-started-with-cronjobs-in-kubernetes-da94263d4887
 * (Jobs & CronJobs) https://opensource.com/article/20/11/kubernetes-jobs-cronjobs, https://betterprogramming.pub/tutorial-how-to-use-kubernetes-job-and-cronjob-1ef4ffbc8e84
+
+# [86th Post] Kubernetes & VS Code Development Workflows
+
+* (Cloud Code extension) https://marketplace.visualstudio.com/items?itemName=GoogleCloudTools.cloudcode
+* (NEXT.io video) https://www.youtube.com/watch?v=62GLbBDLiPE
