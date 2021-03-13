@@ -200,3 +200,14 @@ Links:
 
 * (Cloud Code extension) https://marketplace.visualstudio.com/items?itemName=GoogleCloudTools.cloudcode
 * (NEXT.io video) https://www.youtube.com/watch?v=62GLbBDLiPE
+
+
+# [87th Post] Profiling NodeJs app
+
+* https://www.infoq.com/presentations/profile-nodejs/
+* https://medium.com/@mohit3081989/detecting-performance-bottlenecks-in-node-js-application-ae5a9f9fbde3
+* https://www.youtube.com/watch?v=HyCwu9kBO2g
+* https://www.youtube.com/watch?v=ASv8188AkVk
+* https://www.youtube.com/watch?v=nhW7Qb4ojH8
+* https://www.youtube.com/watch?v=t3NlzG3rfs0
+* https://developer.ibm.com/languages/node-js/tutorials/learn-nodejs-debugging-and-profiling-node-applications/
