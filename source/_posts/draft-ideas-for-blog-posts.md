@@ -201,7 +201,6 @@ Links:
 * (Cloud Code extension) https://marketplace.visualstudio.com/items?itemName=GoogleCloudTools.cloudcode
 * (NEXT.io video) https://www.youtube.com/watch?v=62GLbBDLiPE
 
-
 # [87th Post] Profiling NodeJs app
 
 * https://www.infoq.com/presentations/profile-nodejs/
@@ -211,3 +210,11 @@ Links:
 * https://www.youtube.com/watch?v=nhW7Qb4ojH8
 * https://www.youtube.com/watch?v=t3NlzG3rfs0
 * https://developer.ibm.com/languages/node-js/tutorials/learn-nodejs-debugging-and-profiling-node-applications/
+
+# [88th Post] ML & DA meets Kubernetes
+
+* https://towardsdatascience.com/deploy-machine-learning-applications-to-kubernetes-using-streamlit-and-polyaxon-49bf4b963515
+* https://github.com/polyaxon/polyaxon
+* https://polyaxon.com/
+* https://github.com/streamlit/streamlit
+* https://streamlit.io/
