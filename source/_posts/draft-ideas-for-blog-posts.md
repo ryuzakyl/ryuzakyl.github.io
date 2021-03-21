@@ -218,3 +218,9 @@ Links:
 * https://polyaxon.com/
 * https://github.com/streamlit/streamlit
 * https://streamlit.io/
+
+# [89th Post] Node.js OpenTracing/OpenCensus Instrumentation
+
+* https://cloud.google.com/monitoring/custom-metrics/open-census
+* (section Node.js OpenTracing Instrumentation) https://blog.risingstack.com/the-future-of-microservices-monitoring-and-instrumentation/
+* search for more links
