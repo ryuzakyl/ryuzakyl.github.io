@@ -232,3 +232,9 @@ Links:
 * https://medium.com/@suyashmohan/setting-up-postgresql-database-on-kubernetes-24a2a192e962
 * https://kubernetes.io/blog/2017/02/postgresql-clusters-kubernetes-statefulsets/
 * https://www.youtube.com/watch?v=ewku1iuQQ-A
+
+# [91th Post] Instrumenting with Prometheus
+
+* (Prometheus metrics / OpenMetrics code instrumentation.) https://sysdig.com/blog/prometheus-metrics/
+* https://prometheus.io/docs/guides/go-application/
+* https://www.scalyr.com/blog/prometheus-metrics-by-example/
