@@ -221,6 +221,14 @@ Links:
 
 # [89th Post] Node.js OpenTracing/OpenCensus Instrumentation
 
+* https://www.youtube.com/watch?v=1wWfVqYb-5Y
 * https://cloud.google.com/monitoring/custom-metrics/open-census
 * (section Node.js OpenTracing Instrumentation) https://blog.risingstack.com/the-future-of-microservices-monitoring-and-instrumentation/
+* https://opensource.com/article/20/2/kubernetes-opencensus
 * search for more links
+
+# [90th Post] Kubernetes StatefulSets with PostgreSQL
+
+* https://medium.com/@suyashmohan/setting-up-postgresql-database-on-kubernetes-24a2a192e962
+* https://kubernetes.io/blog/2017/02/postgresql-clusters-kubernetes-statefulsets/
+* https://www.youtube.com/watch?v=ewku1iuQQ-A
