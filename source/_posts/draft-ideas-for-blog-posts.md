@@ -238,3 +238,7 @@ Links:
 * (Prometheus metrics / OpenMetrics code instrumentation.) https://sysdig.com/blog/prometheus-metrics/
 * https://prometheus.io/docs/guides/go-application/
 * https://www.scalyr.com/blog/prometheus-metrics-by-example/
+
+# [92nd Post] Monotoring MongoDB with Mongo Exporter in Kubernetes
+
+* https://www.youtube.com/watch?v=mLPg49b33sA
