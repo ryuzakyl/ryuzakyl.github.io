@@ -237,8 +237,29 @@ Links:
 
 * (Prometheus metrics / OpenMetrics code instrumentation.) https://sysdig.com/blog/prometheus-metrics/
 * https://prometheus.io/docs/guides/go-application/
+* [Instrumenting a Go application](https://www.scalyr.com/blog/prometheus-tutorial-detailed-guide-to-getting-started/)
 * https://www.scalyr.com/blog/prometheus-metrics-by-example/
 
 # [92nd Post] Monotoring MongoDB with Mongo Exporter in Kubernetes
 
 * https://www.youtube.com/watch?v=mLPg49b33sA
+
+# [93th Post] OpenTelemetry/Zipkin
+
+* https://alanstorm.com/category/open-telemetry/
+
+# [94th Post] Ephemeral Containers
+
+* https://kubernetes.io/docs/concepts/workloads/pods/ephemeral-containers/
+* https://kubernetes.io/docs/tasks/debug-application-cluster/debug-running-pod/#ephemeral-container
+* https://alexsimonjones.medium.com/kubectl-debug-time-to-say-goodbye-to-baking-diagnostic-tools-into-your-containers-47f6802d982b
+* https://github.com/aylei/kubectl-debug
+
+# [95th Post] KinD issues after docker/host restart
+
+* https://github.com/kubernetes-sigs/kind/issues/2045
+* https://github.com/kubernetes-sigs/kind/issues/111
+* https://github.com/nginxinc/kubernetes-ingress/issues/885
+* https://www.edureka.co/community/19762/kubernetes-ingress-kepps-returning-502-server-error
+
+Walkthrough for my tests troubleshooting this issue (add my captures of these troubleshooting steps): https://cameron-manavian.medium.com/how-to-debug-a-502-on-kubernetes-c2b0bc1f7490
