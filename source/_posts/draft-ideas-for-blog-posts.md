@@ -177,6 +177,7 @@ Links:
 
 # [83th Post] Install ytfzf with by-product
 
+* https://www.linuxuprising.com/2021/03/ytfzf-search-with-thumbnails-and-play.html?m=1
 * *ytfzf* is for lazy dudes like me and we can see now youtube videos from the terminal.
 * one interesting thing is you can watch YT videos without annoying adds.
 * as a *by-product*, we install fzf and adding the line ([ -f ~/.fzf.bash ] && source ~/.fzf.bash) to your ~/.bashrc gives you a very nice autocompletion on Ctrl + R on bash.
@@ -189,6 +190,7 @@ Links:
 
 * (tutorial Celery + RabbitMQ) https://github.com/kubernetes/kubernetes/tree/release-1.3/examples/celery-rabbitmq
 * (Parallel processing queue in Kubernetes) https://kubernetes.io/docs/tasks/job/coarse-parallel-processing-work-queue/
+* https://youtu.be/j1EnBbxSz64
 
 # [86th Post] Work queues in Kubernetes with Celery and RabbitMQ
 
@@ -263,3 +265,16 @@ Links:
 * https://www.edureka.co/community/19762/kubernetes-ingress-kepps-returning-502-server-error
 
 Walkthrough for my tests troubleshooting this issue (add my captures of these troubleshooting steps): https://cameron-manavian.medium.com/how-to-debug-a-502-on-kubernetes-c2b0bc1f7490
+
+# [96th Post] Kubeflow 101
+
+* https://www.kubeflow.org/
+* https://github.com/kubeflow/kubeflow
+* https://www.youtube.com/watch?v=cTZArDgbIWw&list=PLIivdWyY5sqLS4lN75RPDEyBgTro_YX7x
+
+# [97th Post] CodeStream in VS Code
+
+* https://www.youtube.com/watch?v=mRzU7MJ1588
+* https://github.com/TeamCodeStream/codestream
+* https://www.youtube.com/watch?v=Fg1uP-CxCXY
+* https://dev.to/codestream/vs-code-github-and-codestream-choosing-the-best-of-all-worlds-mc3
