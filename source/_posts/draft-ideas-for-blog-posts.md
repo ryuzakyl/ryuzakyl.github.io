@@ -278,3 +278,20 @@ Walkthrough for my tests troubleshooting this issue (add my captures of these tr
 * https://github.com/TeamCodeStream/codestream
 * https://www.youtube.com/watch?v=Fg1uP-CxCXY
 * https://dev.to/codestream/vs-code-github-and-codestream-choosing-the-best-of-all-worlds-mc3
+
+# [97th Post] Chaos Engineering with Istio in Kubernetes
+
+* https://istio.io/latest/docs/tasks/traffic-management/fault-injection/
+* https://dzone.com/articles/chaos-testing-your-microservices-with-istio
+* https://developers.redhat.com/blog/2018/04/10/istio-chaos-engineering/
+* https://samirbehara.com/2019/06/06/chaos-testing-your-microservices-with-istio/
+* https://www.oreilly.com/library/view/introducing-istio-service/9781491988770/ch05.html
+* https://www.istiobyexample.dev/fault-injection
+* https://kiali.io/documentation/latest/features/#_traffic_management_fault_injection
+
+# [98th Post] Resilient Microservices with Istio Circuit Breaker
+
+* https://istio.io/docs/tasks/traffic-management/circuit-breaking/
+* https://www.katacoda.com/courses/istio/increasing-reliability/handling-failures-with-circuit-breakers
+* https://samirbehara.com/2019/06/03/resilient-microservices-with-istio-circuit-breaker/
+* https://samirbehara.com/2019/06/02/istio-circuit-breaker-with-outlier-detection/
