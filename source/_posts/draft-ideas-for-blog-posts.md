@@ -295,3 +295,21 @@ Walkthrough for my tests troubleshooting this issue (add my captures of these tr
 * https://www.katacoda.com/courses/istio/increasing-reliability/handling-failures-with-circuit-breakers
 * https://samirbehara.com/2019/06/03/resilient-microservices-with-istio-circuit-breaker/
 * https://samirbehara.com/2019/06/02/istio-circuit-breaker-with-outlier-detection/
+
+# [99th Post] Mongo Express and MongoDB on Kubernetes
+
+* Installation guide here: https://www.youtube.com/watch?v=EQNO_kM96Mo
+* https://github.com/mongo-express/mongo-express
+* https://www.helpnetsecurity.com/2019/04/26/securing-mongo-express-web-administrative-interfaces/#:~:text=Mongo%20Express%20is%20a%20lightweight,js%2C%20Express%20and%20Bootstrap%20packages.
+
+# [100th Post] Secure Control of Egress Traffic in Istio
+
+* https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-1/
+* https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-2/
+* https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-3/
+
+think that one of the talks by meghan o'keefe or the sand lord has a demo of this.
+
+# [101th Post] Istio External Authorization
+
+https://istio.io/latest/blog/2021/better-external-authz/
