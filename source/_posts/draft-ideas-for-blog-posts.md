@@ -152,6 +152,8 @@ Start with links gathered in my Trello board **Study > Docker > Networking**.
 
 https://georgepaw.medium.com/how-to-run-the-cheapest-kubernetes-cluster-at-1-per-day-9287abb90cee
 https://georgepaw.medium.com/how-to-run-the-cheapest-kubernetes-cluster-at-1-per-day-tutorial-9673f062b903
+* https://software.danielwatrous.com/kubernetes-on-the-cheap/
+
 
 # [80th Post] Microservices development (yes... development) with Kubernetes
 
@@ -302,7 +304,11 @@ Walkthrough for my tests troubleshooting this issue (add my captures of these tr
 * https://github.com/mongo-express/mongo-express
 * https://www.helpnetsecurity.com/2019/04/26/securing-mongo-express-web-administrative-interfaces/#:~:text=Mongo%20Express%20is%20a%20lightweight,js%2C%20Express%20and%20Bootstrap%20packages.
 
-# [100th Post] Secure Control of Egress Traffic in Istio
+# [100th Post] Istio Traffic Management
+
+https://istio.io/latest/docs/concepts/traffic-management/
+
+# [101th Post] Secure Control of Egress Traffic in Istio
 
 * https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-1/
 * https://istio.io/latest/blog/2019/egress-traffic-control-in-istio-part-2/
@@ -310,6 +316,38 @@ Walkthrough for my tests troubleshooting this issue (add my captures of these tr
 
 think that one of the talks by meghan o'keefe or the sand lord has a demo of this.
 
-# [101th Post] Istio External Authorization
+# [102th Post] Istio External Authorization
 
 https://istio.io/latest/blog/2021/better-external-authz/
+
+# [103th Post] Leveraging Istio Ingress Gateway with NGINX Ingress
+
+
+* https://software.danielwatrous.com/istio-ingress-vs-kubernetes-ingress/
+* https://discuss.istio.io/t/istio-routing-compared-to-kubernetes-ingress/2791
+
+* https://matiasmct.medium.com/using-istio-with-nginx-ingress-ccb8e28d9aff
+* https://istio.io/latest/docs/reference/config/annotations/
+
+* https://blog.jayway.com/2018/10/22/understanding-istio-ingress-gateway-in-kubernetes/
+
+* https://banzaicloud.com/blog/istio-multiple-gateways/
+* https://banzaicloud.com/blog/backyards-ingress/
+
+# [104th Post] Which is the right choice: Kubernetes Ingress, Istio Gateway or API Gateway
+
+* https://medium.com/@zhaohuabing/which-one-is-the-right-choice-for-the-ingress-gateway-of-your-service-mesh-21a280d4a29c
+
+# [105th Post] Vault on Kubernetes
+
+* https://www.vaultproject.io/docs/platform/k8s/helm/run
+* https://learn.hashicorp.com/tutorials/vault/kubernetes-sidecar
+* https://istio.io/v1.2/docs/tasks/security/vault-ca/
+* https://stackoverflow.com/questions/65735493/istio-and-hashicorpt-vault-agent-sidecar-not-working-properly
+
+# [106th Post] Tracing with Kiali
+
+* https://medium.com/kialiproject/trace-my-mesh-part-1-3-35e252f9c6a9
+* https://medium.com/kialiproject/trace-my-mesh-part-2-3-13cd6ccae1de
+* https://medium.com/kialiproject/trace-my-mesh-part-3-3-e1e64795e61f
+* https://kiali.io/documentation/latest/distributed-tracing/
