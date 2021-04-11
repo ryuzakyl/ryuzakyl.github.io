@@ -153,7 +153,7 @@ Start with links gathered in my Trello board **Study > Docker > Networking**.
 https://georgepaw.medium.com/how-to-run-the-cheapest-kubernetes-cluster-at-1-per-day-9287abb90cee
 https://georgepaw.medium.com/how-to-run-the-cheapest-kubernetes-cluster-at-1-per-day-tutorial-9673f062b903
 * https://software.danielwatrous.com/kubernetes-on-the-cheap/
-
+* https://redmaple.tech/blogs/affordable-kubernetes-for-personal-projects/
 
 # [80th Post] Microservices development (yes... development) with Kubernetes
 
@@ -322,7 +322,6 @@ https://istio.io/latest/blog/2021/better-external-authz/
 
 # [103th Post] Leveraging Istio Ingress Gateway with NGINX Ingress
 
-
 * https://software.danielwatrous.com/istio-ingress-vs-kubernetes-ingress/
 * https://discuss.istio.io/t/istio-routing-compared-to-kubernetes-ingress/2791
 
@@ -330,6 +329,8 @@ https://istio.io/latest/blog/2021/better-external-authz/
 * https://istio.io/latest/docs/reference/config/annotations/
 
 * https://blog.jayway.com/2018/10/22/understanding-istio-ingress-gateway-in-kubernetes/
+
+* https://www.alibabacloud.com/blog/north-south-traffic-management-of-istio-gateways-with-answers-from-service-mesh-experts_596658
 
 * https://banzaicloud.com/blog/istio-multiple-gateways/
 * https://banzaicloud.com/blog/backyards-ingress/
@@ -351,3 +352,28 @@ https://istio.io/latest/blog/2021/better-external-authz/
 * https://medium.com/kialiproject/trace-my-mesh-part-2-3-13cd6ccae1de
 * https://medium.com/kialiproject/trace-my-mesh-part-3-3-e1e64795e61f
 * https://kiali.io/documentation/latest/distributed-tracing/
+
+# [107 Post] Youtube-dl and some cool stuff
+
+* How to install
+* Usage
+* automate download lists, etc.
+
+# [108 Post] Malware analysis on Chrome extensions
+
+Case study:
+![](/assets/images/draft/malware-extension.png)
+
+View source code of extension:
+* https://gist.github.com/paulirish/78d6c1406c901be02c2d
+* https://www.howtogeek.com/198964/how-to-view-the-source-code-of-a-chrome-extension/#:~:text=Using%20the%20Chrome%20Extension%20Source%20Code%20Viewer&text=Now%20that%20it%20is%20installed,file%20or%20view%20it%20online.
+* https://www.saintlad.com/get-source-code-of-chrome-extension/
+
+Malware Analysis for chrome extensions:
+* https://resources.infosecinstitute.com/topic/how-to-spot-a-malicious-browser-extension/
+* https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.374.8978&rep=rep1&type=pdf
+* https://securelist.com/dissecting-the-chrome-extension-facebook-malware/81716/
+* https://null-byte.wonderhowto.com/how-to/analyze-web-browser-extensions-for-possible-malware-other-malicious-activity-0236335/
+* https://www.usenix.org/sites/default/files/conference/protected-files/cset17_slides_dekoven.pdf
+* https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/43824.pdf
+* https://www.wired.com/story/chrome-extension-malware/
