@@ -162,6 +162,19 @@ Debugging and Developing microservices communicating with other services in a K8
 https://erkanerol.github.io/post/debugging-k8s-services/
 https://www.telepresence.io/
 
+Okteto: A Tool to Develop Applications on Kubernetes
+https://github.com/okteto/okteto
+
+An out-of-tree solution for troubleshooting running pods,
+https://github.com/aylei/kubectl-debug#install-the-kubectl-debug-plugin
+
+Telepresence:
+* https://www.telepresence.io/
+* https://www.telepresence.io/tutorials/kubernetes
+* https://www.telepresence.io/tutorials/kubernetes-client
+* https://www.telepresence.io/tutorials/kubernetes-rapid
+* https://www.getambassador.io/docs/telepresence/latest/quick-start/
+
 # [81th Post] Configuring Secrets on Kubernetes
 
 Links:
@@ -377,3 +390,87 @@ Malware Analysis for chrome extensions:
 * https://www.usenix.org/sites/default/files/conference/protected-files/cset17_slides_dekoven.pdf
 * https://static.googleusercontent.com/media/research.google.com/es//pubs/archive/43824.pdf
 * https://www.wired.com/story/chrome-extension-malware/
+
+
+# [109 Post] Kubernetes CIS Benchmarks for Auditing
+
+Talk about the benchmarks
+Talk about Aqua and NueVector implementations
+Talk about how to exploit failing benchmarks?
+Talk about how to do it in a cronjob and alert via Prometheus or another alerting mechanism:
+* https://github.com/sukeesh/k8s-job-notify
+* https://medium.com/@tristan_96324/prometheus-k8s-cronjob-alerts-94bee7b90511
+* https://github.com/marcomicera/kubemarks
+
+# [110 Post] Kubernetes Networking [Demistified | in depth | from zero to hero ]
+
+* K8s Network Model/Architecture (https://k8s.networkop.co.uk/arch/)
+* K8s CNI Plugins (https://k8s.networkop.co.uk/cni/)
+  * kindnet (https://github.com/aojea/kindnet)
+  * cilium
+  * calico (https://alexbrand.dev/post/creating-a-kind-cluster-with-calico-networking/)
+  * flannel
+  * etc.
+* https://medium.com/swlh/customise-your-kind-clusters-networking-layer-1249e7916100
+* (Network Troubleshooting tool) https://github.com/nicolaka/netshoot
+* Networking stuff from my Brainstorming doc
+
+
+# [111 Post] KinD support for insecure registries
+
+* https://kind.sigs.k8s.io/docs/user/local-registry/
+* https://github.com/kubernetes-sigs/kind/issues/110#issuecomment-554594072
+* https://github.com/networkop/k8s-guide-labs/blob/master/kind.yaml
+
+# [112 Post] Kubernetes Network Policies
+
+* Take from my brainstorming document
+
+# [113 Post] Should I get a CKA, CKAD, CKS, LFS260 certifications?
+
+CKAD:
+* https://www.cncf.io/certification/ckad/
+* https://www.ivonet.nl/2021/04/16/kubernetes-for-developers/
+
+CKS:
+* https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/
+* https://www.cncf.io/blog/2020/07/15/certified-kubernetes-security-specialist-cks-coming-in-november/
+
+LFS260:
+* https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260/
+* https://www.linkedin.com/in/manuelmorejon/
+* https://www.youtube.com/watch?v=uDibFQyBO9E
+
+DOFD:
+* https://www.devopsuniversity.org/certified-devops-foundation/
+* https://devopsinstitute.com/courses/devops-foundation/
+* https://devopsinstitute.com/certifications/devops-foundation/
+* https://devopsinstitute.com/event/devops-foundation-certification/
+# [114 Post] Consuming the API Server with cURL
+
+* https://nieldw.medium.com/curling-the-kubernetes-api-server-d7675cfc398c
+
+# [115 Post] kubelet authentication and authorization
+
+* https://github.com/cyberark/kubeletctl
+* https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet-authentication-authorization/
+* https://stupefied-goodall-e282f7.netlify.app/contributors/design-proposals/node/kubelet-auth/
+* https://kubernetes.io/docs/reference/command-line-tools-reference/kubelet/
+
+# [116 Post] Develop browser extensions/add-ons
+
+* https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/Build_a_cross_browser_extension
+* https://hacks.mozilla.org/2019/10/developing-cross-browser-extensions-with-web-ext-3-2-0/
+* https://www.smashingmagazine.com/2017/04/browser-extension-edge-chrome-firefox-opera-brave-vivaldi/
+* https://github.com/albinantony92/Web-Page-Annotation
+
+# [117 Securing Kubernetes: CAP_NET_RAW
+
+Do the video with Kubehunter, etc. Try to fix CAP_NET_RAW?? Does it makes sense to do so?
+
+* https://www.weave.works/blog/container-capabilities-kubernetes/
+* https://gitlab.com/gitlab-org/gitlab-runner/-/issues/26833
+* https://stackoverflow.com/questions/53328090/why-is-requiring-that-all-capabilities-be-dropped-in-a-kubernetes-podsecuritypol
+* https://www.stackrox.com/post/2020/06/mitigating-kubernetes-cve-2020-10749/
+* https://github.com/kubernetes-simulator/simulator/issues/125
+* https://snyk.io/blog/kubernetes-securitycontext-linux-capabilities/
