@@ -428,13 +428,19 @@ Talk about how to do it in a cronjob and alert via Prometheus or another alertin
 
 # [113 Post] Should I get a CKA, CKAD, CKS, LFS260 certifications?
 
+https://github.com/cncf/curriculum
+
 CKAD:
 * https://www.cncf.io/certification/ckad/
 * https://www.ivonet.nl/2021/04/16/kubernetes-for-developers/
+* https://kgamanji.medium.com/how-i-passed-my-ckad-with-97-6b54dcffa72f
 
 CKS:
 * https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/
 * https://www.cncf.io/blog/2020/07/15/certified-kubernetes-security-specialist-cks-coming-in-november/
+* https://itnext.io/cks-exam-series-3-immutable-pods-3812cf76cff4
+* https://medium.com/devopsturkiye/certified-kubernetes-security-specialist-cks-ultimate-guide-537b6bbd901f
+https://medium.com/cooking-with-azure/certified-kubernetes-security-specialist-cks-exam-guide-a8fc2b4c47ea
 
 LFS260:
 * https://training.linuxfoundation.org/training/kubernetes-security-essentials-lfs260/
@@ -474,3 +480,37 @@ Do the video with Kubehunter, etc. Try to fix CAP_NET_RAW?? Does it makes sense 
 * https://www.stackrox.com/post/2020/06/mitigating-kubernetes-cve-2020-10749/
 * https://github.com/kubernetes-simulator/simulator/issues/125
 * https://snyk.io/blog/kubernetes-securitycontext-linux-capabilities/
+
+# [118 Post] Manage cloud pricing for Kubernetes cluster
+
+* https://medium.com/@bahubalishetti/analyzing-self-managed-kubernetes-cluster-cost-on-aws-via-cloudhealth-8a1c0b30156b
+* https://cloud.google.com/kubernetes-engine/pricing
+
+# [119 Post] KinD cluster configuration
+
+Components to be configured:
+* kubelet
+* apiServer
+* controllerManager (https://kubernetes.io/docs/reference/command-line-tools-reference/kube-controller-manager/)
+* scheduler
+
+Configurations:
+* https://kind.sigs.k8s.io/docs/user/configuration/#kubeadm-config-patches
+* https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/control-plane-flags/
+
+https://github.com/kubernetes/kubeadm/issues/552#issuecomment-353368971
+
+https://github.com/kubernetes-sigs/kind/issues/1839
+https://github.com/kubernetes/kubernetes/issues/60896
+
+# [120 Post] Install Albert
+
+* https://www.reddit.com/r/linux/comments/9lmcaj/* making_albert_launcher_on_linux_as_good_as_alfred/
+* https://github.com/albertlauncher/albert
+* https://medium.com/curiouscaloo/macos-to-ubuntu-part1-alfred-replacement-7864b4d26397
+* https://medium.com/curiouscaloo/macos-to-ubuntu-part1-alfred-replacement-7864b4d26397#:~:text=Albert%20is%20an%20open%20source,your%20fancy%2C%20add%20one%20yourself.
+
+* https://albertlauncher.github.io/
+* https://www.youtube.com/watch?v=4KWKwKItG94
+* https://www.youtube.com/watch?v=i95rn3sl_Uo
+* https://www.youtube.com/watch?v=9t6Zr9lAFfo

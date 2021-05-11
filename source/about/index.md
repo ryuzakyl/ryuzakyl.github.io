@@ -9,21 +9,21 @@ date: 2021-01-07 00:00:00
 
 ## $ whoami
 
-**Name：** L
-**Occupation：** Software Engineer (& Cybersecurity Engineer wannabe)
+**Name：** Victor M. Mendiola Lau
+**Occupation：** Software Engineer
 **Nationality：** 🇨🇺 Cuba (born & raised)
 **Location：** 🇪🇸 Málaga, Spain
 **Education：**
-- [<img class="uni-shield-icon" src="/assets/images/about-me/uja-logo-01.gif">](https://www.ujaen.es/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `University of Jaén, MSc. in Information Security`
+- [<img class="uni-shield-icon" src="/assets/images/about-me/uja-logo-01.gif">](https://www.ujaen.es/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `University of Jaén, MSc. in Information Security` (in progress)
 - [<img class="uni-shield-icon" src="/assets/images/about-me/uh-logo-01.gif">](http://www.uh.cu/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `University of Havana, BSc. in Computer Science`
 
 ## Curriculum Vitae
-- [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-en-industry-succinct.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-en-industry-succinct.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-en-industry-succinct.pdf) &nbsp; (`English`, `Succint`)
-- [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-es-industry-succinct.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-es-industry-succinct.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-es-industry-succinct.pdf) &nbsp; (`Spanish`, `Succint`)
+- (older version) [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-en-industry-succinct.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-en-industry-succinct.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-en-industry-succinct.pdf) &nbsp; (`English`, `Succint`)
+- (older version) [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-es-industry-succinct.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-es-industry-succinct.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-es-industry-succinct.pdf) &nbsp; (`Spanish`, `Succint`)
 
 
-- [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-en-industry.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-en-industry.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-en-industry.pdf) &nbsp; (`English`, `Detailed`)
-- [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-es-industry.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-es-industry.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-es-industry.pdf) &nbsp; (`Spanish`, `Detailed`)
+- [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-en-industry.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-en-industry.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.7/cv-en-industry.pdf) &nbsp; (`English`, `Detailed`)
+- [<img class="cv-pdf-icon" src="/assets/images/shared/pdf.png">](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.6/cv-es-industry.pdf) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`cv-es-industry.pdf`](https://github.com/ryuzakyl/curriculum-vitae/releases/download/1.0.7/cv-es-industry.pdf) &nbsp; (`Spanish`, `Detailed`)
 
 ## Where to find me?
 
