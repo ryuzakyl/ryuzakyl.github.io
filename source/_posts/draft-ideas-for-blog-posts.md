@@ -429,13 +429,19 @@ Talk about how to do it in a cronjob and alert via Prometheus or another alertin
 # [113 Post] Should I get a CKA, CKAD, CKS, LFS260 certifications?
 
 https://github.com/cncf/curriculum
+https://www.reddit.com/r/kubernetes/comments/nejmo5/my_views_on_cka/
+killer.sh
 
 CKAD:
 * https://www.cncf.io/certification/ckad/
 * https://www.ivonet.nl/2021/04/16/kubernetes-for-developers/
 * https://kgamanji.medium.com/how-i-passed-my-ckad-with-97-6b54dcffa72f
+* https://arunksingh16.medium.com/admin-notebook-how-to-be-quick-with-kubectl-1-19-8845176be4d7
 
 CKS:
+* (Gooood one) https://www.youtube.com/watch?v=Ny3p0UKBcYs
+* (Good one) https://k21academy.com/docker-kubernetes/certified-kubernetes-security-specialist-cks-step-by-step-activity-guide-hands-on-lab/
+* https://itnext.io/cks-exam-series-5-imagepolicywebhook-8d09f1ceee70
 * https://training.linuxfoundation.org/certification/certified-kubernetes-security-specialist/
 * https://www.cncf.io/blog/2020/07/15/certified-kubernetes-security-specialist-cks-coming-in-november/
 * https://itnext.io/cks-exam-series-3-immutable-pods-3812cf76cff4
@@ -452,6 +458,7 @@ DOFD:
 * https://devopsinstitute.com/courses/devops-foundation/
 * https://devopsinstitute.com/certifications/devops-foundation/
 * https://devopsinstitute.com/event/devops-foundation-certification/
+
 # [114 Post] Consuming the API Server with cURL
 
 * https://nieldw.medium.com/curling-the-kubernetes-api-server-d7675cfc398c
@@ -514,3 +521,19 @@ https://github.com/kubernetes/kubernetes/issues/60896
 * https://www.youtube.com/watch?v=4KWKwKItG94
 * https://www.youtube.com/watch?v=i95rn3sl_Uo
 * https://www.youtube.com/watch?v=9t6Zr9lAFfo
+
+# [121 Post] Kritis and Grafeas tutorial
+
+* Do a real scenario of exploitation. Create a vulnerable image. deployit to the cluster and exploit it
+* Talk about the necessity of these tools and explain them
+* Do the setup/tutorial to mitigate these threats.
+
+References:
+* Section for 'Security in the Software Supply Chain'
+
+# [122 Post] App for relative voting
+
+* https://half-measures.tumblr.com/
+* https://jesseepinkman.tumblr.com/Reputation
+
+<script src="https://gist.github.com/ryuzakyl/12c221ff0e54d8b1ac171c69ea552c0a.js"></script>
