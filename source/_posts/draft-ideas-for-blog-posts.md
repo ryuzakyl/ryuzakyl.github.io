@@ -535,5 +535,3 @@ References:
 
 * https://half-measures.tumblr.com/
 * https://jesseepinkman.tumblr.com/Reputation
-
-<script src="https://gist.github.com/ryuzakyl/12c221ff0e54d8b1ac171c69ea552c0a.js"></script>
