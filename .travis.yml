@@ -1,6 +1,8 @@
 # The specified build environment is Node.js, and the current version is stable
-anguage: node_js
+language: node_js
 node_js: "13.13.0"
+os: linux
+dist: focal
 
 env:
  global:
