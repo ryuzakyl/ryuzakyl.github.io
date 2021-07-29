@@ -155,6 +155,12 @@ https://georgepaw.medium.com/how-to-run-the-cheapest-kubernetes-cluster-at-1-per
 * https://software.danielwatrous.com/kubernetes-on-the-cheap/
 * https://redmaple.tech/blogs/affordable-kubernetes-for-personal-projects/
 
+GKE Pre-emptible nodes:
+* https://cloud.google.com/kubernetes-engine/docs/how-to/preemptible-vms
+* https://cloud.google.com/blog/products/containers-kubernetes/cutting-costs-with-google-kubernetes-engine-using-the-cluster-autoscaler-and-preemptible-vms
+* https://medium.com/google-cloud/using-preemptible-vms-to-cut-kubernetes-engine-bills-in-half-de2481b8e814
+* https://medium.com/swlh/how-to-save-big-on-gke-use-preemptible-nodes-298fd17b4971
+
 # [80th Post] Microservices development (yes... development) with Kubernetes
 
 Debugging and Developing microservices communicating with other services in a K8s cluster:
@@ -197,6 +203,9 @@ Links:
 * one interesting thing is you can watch YT videos without annoying adds.
 * as a *by-product*, we install fzf and adding the line ([ -f ~/.fzf.bash ] && source ~/.fzf.bash) to your ~/.bashrc gives you a very nice autocompletion on Ctrl + R on bash.
 
+* https://github.com/junegunn/fzf/issues/1385
+* https://stackoverflow.com/questions/63816790/youtube-dl-error-youtube-said-unable-to-extract-video-data
+
 # [84th Post] Modelling business/software user cases/requirements with Finite State Automatons
 
 * (My Trello board) https://trello.com/c/K5gOn4FM/18-good-software-practices
@@ -235,6 +244,15 @@ Links:
 * https://polyaxon.com/
 * https://github.com/streamlit/streamlit
 * https://streamlit.io/
+
+ML & DA at scale:
+* https://www.hpe.com/us/en/resources/solutions/kubernetes-mlops.html
+* https://towardsdatascience.com/a-kubernetes-architecture-for-machine-learning-web-application-deployments-632f7765ef29
+* https://towardsdatascience.com/machine-learning-with-docker-and-kubernetes-training-models-cbe33a08c999
+* https://pages.awscloud.com/Scaling-Machine-Learning-on-Kubernetes-and-Kubeflow-with-SageMaker_2020_0514-MCL_OD.html
+* https://thenewstack.io/democratizing-machine-learning-at-scale-with-kubernetes-on-azure/
+* https://opencredo.com/blogs/machine-learning-at-scale-first-impressions-of-kubeflow/
+* https://conferences.oreilly.com/jupyter/jup-ny/public/schedule/detail/69752.html
 
 # [89th Post] Node.js OpenTracing/OpenCensus Instrumentation
 
@@ -372,6 +390,8 @@ https://istio.io/latest/blog/2021/better-external-authz/
 * Usage
 * automate download lists, etc.
 
+https://www.linuxuprising.com/2021/03/ytfzf-search-with-thumbnails-and-play.html
+
 # [108 Post] Malware analysis on Chrome extensions
 
 Case study:
@@ -431,6 +451,13 @@ Talk about how to do it in a cronjob and alert via Prometheus or another alertin
 https://github.com/cncf/curriculum
 https://www.reddit.com/r/kubernetes/comments/nejmo5/my_views_on_cka/
 killer.sh
+
+
+CKA:
+* https://www.reddit.com/r/kubernetes/comments/nrs1ry/today_i_got_my_cka_here_are_some_tips/
+* https://arunksingh16.medium.com/admin-notebook-how-to-be-quick-with-kubectl-1-19-8845176be4d7
+* https://www.gcuisinier.net/blog/2020/08/comment-jai-pass%C3%A9-la-certification-kubernetes-administrator/
+
 
 CKAD:
 * https://www.cncf.io/certification/ckad/
@@ -535,3 +562,49 @@ References:
 
 * https://half-measures.tumblr.com/
 * https://jesseepinkman.tumblr.com/Reputation
+
+# [123 Post] Kubernetes for IoT
+
+* http://thinkmind.org/articles/cloud_computing_2019_1_10_28010.pdf
+* https://www.missioncloud.com/blog/leveraging-kubernetes-from-an-iot-perspective
+* https://capgemini-engineering.com/us/en/insight/how-kubernetes-benefits-iot-edge/
+* https://www.lfedge.org/2020/05/01/extending-kubernetes-to-the-iot-edge/
+* https://www.youtube.com/watch?v=_L_pR6ZYwEs
+
+# [123 Post] Silly Kubelet for Honeypot
+
+* https://medium.com/hackernoon/a-silly-virtual-kubelet-71b2ec466bc6
+* https://github.com/lizrice/virtual-kubelet/tree/silly/providers/silly
+* https://asciinema.org/a/152964
+
+# [123 Post] Knative
+
+* https://github.com/meteatamel/knative-tutorial
+* https://redhat-developer-demos.github.io/knative-tutorial/knative-tutorial/index.html
+
+# [123 Post] Backend server side performance comparison
+
+* (starting point)(read the comments) https://www.toptal.com/back-end/server-side-io-performance-node-php-java-go
+* (include Python) https://gist.github.com/grantjenks/dacc0a1e7fa9a08264439b9c6a05ec5b
+* Two benchmarks: a simple computation and, on the other hand, some CRUD operations
+
+# [123 Post] Playing with AdmissionControl with ImagePolicyWebhook
+
+* My video about it when troubleshooting why it was not working on KinD.
+* https://github.com/kubernetes/kubernetes/issues/58426
+* https://ikcoo.tistory.com/157
+* https://kubernetes.io/docs/reference/access-authn-authz/admission-controllers/
+
+# [124 Post] Automatic Docker image build from Github repo
+
+* https://stackoverflow.com/questions/25328166/docker-hub-automated-build-tagging
+* https://docs.docker.com/docker-hub/builds/#set-up-build-rules
+* https://itnext.io/understanding-docker-image-tags-and-publishing-images-to-docker-hub-b7a4f900f201
+* https://stackoverflow.com/questions/18216991/create-a-tag-in-a-github-repository
+
+
+# [125th Post] Rewriting BookInfo in C# and golang
+
+Give credit to original author
+
+* https://github.com/sevikarakose/BookInfo
