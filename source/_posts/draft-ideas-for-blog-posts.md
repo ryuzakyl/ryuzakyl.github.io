@@ -608,3 +608,21 @@ References:
 Give credit to original author
 
 * https://github.com/sevikarakose/BookInfo
+
+# [126th Post] Deep dive into the whole PSP/PSS controversy
+
+* https://github.com/appscodelabs/tasty-kube/tree/master/kind/psp
+* https://medium.com/coryodaniel/kubernetes-assigning-pod-security-policies-with-rbac-2ad2e847c754
+* https://developer.squareup.com/blog/kubernetes-pod-security-policies/ 
+* https://codilime.com/the-benefits-of-pod-security-policy-a-use-case/
+* (possible values for PSP fields like runAsUser) https://kubernetes.io/docs/concepts/policy/pod-security-policy/#users-and-groups
+* https://suraj.io/post/k8s-hostpat-nuke-nodes/
+* https://sysdig.com/blog/kubernetes-security-psp-network-policy/#admission-controllers
+* https://blog.appsecco.com/kubernetes-namespace-breakout-using-insecure-host-path-volume-part-1-b382f2a6e216
+* https://blog.appsecco.com/prevent-hostpath-based-kubernetes-attacks-with-pod-security-policies-2f8646df6761
+
+
+# [127th Post] Rootless containers
+
+* https://medium.com/@k8spin/rootless-containers-on-kubernetes-part-1-eca737fa7a81
+* https://medium.com/@k8spin/rootless-containers-on-kubernetes-part-2-dfff67f899a6
