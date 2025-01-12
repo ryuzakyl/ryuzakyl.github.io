@@ -8,7 +8,7 @@ const projects = [
     imageUrl: "img/projects/csharp-code.jpg",
     subtitle: "NHTSA unofficial .NET Client SDK",
     period: "October 2024",
-    tech: "C#, .NET 8, VS Code",
+    tech: ".NET 8, C#, REST API, JSON, VS Code",
     description: (
       <>
         <p>
