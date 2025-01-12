@@ -1,104 +1,53 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.iml
+*.code-workspace
+.changelog
+.history
 
-# C extensions
-*.so
+node_modules
+.yarn
+package-lock.json
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+.eslintcache
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+yarn-error.log
+website/build
+coverage
+.docusaurus
+.cache-loader
+types
+test-website
+test-website-in-workspace
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+packages/create-docusaurus/lib/
+packages/lqip-loader/lib/
+packages/docusaurus/lib/
+packages/docusaurus-*/lib/*
+packages/eslint-plugin/lib/
+packages/stylelint-copyright/lib/
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+website/netlifyDeployPreview/*
+website/changelog
+!website/netlifyDeployPreview/index.html
+!website/netlifyDeployPreview/_redirects
 
-# Translations
-*.mo
-*.pot
+website/_dogfooding/_swizzle_theme_tests
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+CrowdinTranslations_*.zip
 
-# Flask stuff:
-instance/
-.webassets-cache
+website/.cpu-prof
 
-# Scrapy stuff:
-.scrapy
+website/i18n/**/*
+#!website/i18n/fr
+#!website/i18n/fr/**/*
 
-# Sphinx documentation
-docs/_build/
+.netlify
 
-# PyBuilder
-target/
+# exclude build folder
+build
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
+# exclude TODO file
+TODO

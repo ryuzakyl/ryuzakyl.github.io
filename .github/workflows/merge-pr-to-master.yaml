@@ -1,0 +1,64 @@
+name: Merge PR to 'master' branch
+
+on:
+  push:
+    branches: [impossible-branch-name-to-artifically-disable-this-workflow]
+
+env:
+  SHA: $(echo ${GITHUB_SHA} | cut -c1-8) # the commit SHA that triggered the workflow.
+
+jobs:
+  build-and-test-code:
+    name: Build & Run automated tests
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # step 1
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # step 2
+      - name: Run any tests
+        run: |
+          echo "Tests should go here"
+
+  sync-website-content-with-s3-bucket:
+    name: Sync static website content with S3 bucket
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+
+    steps:
+      # step 1
+      - name: Get SHA
+        shell: bash
+        run: echo "SHA=$(echo ${GITHUB_SHA} | cut -c1-8)" >> $GITHUB_ENV
+
+      # step 2
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # step 3
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_REGION }}
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.18'
+
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+
+      # step 4
+      - name: Sync website static content to the S3 bucket
+        run: |
+          aws s3 sync build/ s3://wellroundedtech.com/profiles/victor --delete
+    needs: build-and-test-code

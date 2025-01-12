@@ -1,0 +1,26 @@
+name: PR pipeline
+# runs for any open PR regardless of the branch name
+# and for each push to the PR
+
+on:
+  pull_request:
+
+env:
+  SERVICE_NAME: well-rounded-tech-website
+  SHA: $(echo ${GITHUB_SHA} | cut -c1-8) # the commit SHA that triggered the workflow.
+
+jobs:
+  build-and-test-code:
+    name: Build & Run automated tests
+    if: github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      # step 1
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # step 2
+      - name: Run any tests
+        run: echo "Tests should go here"
